@@ -1,0 +1,48 @@
+.footer {
+    bottom: 0;
+    background: $blueGray;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+
+    & .footer-top {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        & hr {
+            width: 80%;
+            height: 2px;
+            color: $white;
+        }
+
+        & .social {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            & a {
+                margin-left: 10px;
+                transition: all .4s ease-in-out;
+            }
+        }
+    }
+
+    & .footer-bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+
+        & span {
+            color: $white;
+        }
+    }
+}
